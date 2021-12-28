@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ad Maker</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!--Main-->
+		<div class="homepage">
+			<div class="logo"></div>
+			<form class="password__area">
+				<label for="name">Name: </label>
+				<input class="password__box" type="text" id="name" />
+				<br />
+				<br />
+				<label for="description">Describe what you want it to look like:</label>
+				<input type="text" id="description" />
+				<br />
+				<br />
+				<label for="money">How much money are you willing to pay? Minimum amount is $20.</label>
+				<input type="text" id="money" />
+				<input class="submit__button" type="button" value="Submit" onclick="contact();" />
+				<br /><br />
+				<p style="color: red;">IMPORTANT!! If you don't attatch a picture for your ad, then I will make an ad for you!!</p>
+			</form>
+		</div>
+
+		<script type="text/javascript">
+		    function contact() {
+
+		        var name = document.getElementById("name").value;
+			var description = document.getElementById("description").value;
+			var money = document.getElementById("money").value;
+		        var message = "Hello! My name is " + name + ". I would like to request an ad for " + description + "  Thank you!!   "+"I am willing to pay $"+money+"."
+
+			window.open('mailto:bbensema890@gmail.com?subject=Can you put my ad in?&body='+message);
+		    }
+		</script>
+		<!--End Main-->
+	
+		<!--Footer-->
+		<div class="footer__container">
+			<p style="text-align: left;">All Cards Copyrighted. Don't try it.</p>
+			<p style="text-align: right;">Made by MtL</p>
+		</div>
+		<!--End Footer-->
+	</body>
+</hmtl>
