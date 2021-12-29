@@ -74,15 +74,15 @@ body {
 
 .ad__left {
 	float: left;
-	padding: 20px;
-	margin-left: 10%;
+	padding: 40px;
+	margin-left: 20%;
 	color: white;
 }
 
 .ad__right {
 	float: right;
-	padding: 20px;
-	margin-right: 10%;
+	padding: 40px;
+	margin-right: 20%;
 	color: white;
 }
 
