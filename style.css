@@ -72,6 +72,22 @@ body {
 	border: 1px solid #e2e2e2;
 }
 
+.ad__right {
+	margin: 2%;
+	margin-right: 50%;
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid #e2e2e2;
+}
+
+.result {
+	margin: 2%;
+	margin-left: 50%;
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid #e2e2e2;
+}
+
 .result p{
 	color: #4d5156;
 	margin-left: 2%;
