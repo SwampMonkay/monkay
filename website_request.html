@@ -13,9 +13,7 @@
 				<input class="password__box" type="text" id="name" />
 				<br /><br />
 				<label for="description">Describe what you want your website to look like:</label>
-				<textarea cols="40" rows="5" name="describe">
-          dexcribe...
-        </textarea>
+				<textarea cols="40" rows="5" name="describe"></textarea>
 				<br /><br />
 				<label for="caption">What do you want the search result to say?</label>
 				<input type="text" id="caption" />
@@ -30,7 +28,7 @@
 		    function contact() {
 
 		        var name = document.getElementById("name").value;
-			      var description = document.getElementById("description").value;
+			      var description = document.getElementById("describe").value;
 			      var caption = document.getElementById("caption").value;
 			      var money = document.getElementById("money").value;
 		        var message = "Hello! My name is " + name + ". I would like to request a website for " + description + ". My search result is "+caption+" Thank you!!   "+"I am willing to pay $"+money+"."
