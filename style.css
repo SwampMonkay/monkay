@@ -76,12 +76,14 @@ body {
 	float: left;
 	padding: 40px;
 	margin-left: 20%;
+	color: white;
 }
 
 .ad__right {
 	float: right;
 	padding: 40px;
 	margin-right: 20%;
+	color: white;
 }
 
 .result p{
