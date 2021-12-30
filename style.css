@@ -75,14 +75,14 @@ body {
 .ad__left {
 	float: left;
 	padding: 40px;
-	margin-left: 20%;
+	margin-left: 10%;
 	color: white;
 }
 
 .ad__right {
 	float: right;
 	padding: 40px;
-	margin-right: 20%;
+	margin-right: 10%;
 	color: white;
 }
 
