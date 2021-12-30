@@ -4,6 +4,7 @@
 		<title>Monkay Search Engine | MSE</title>
 		<link href="style.css" rel="stylesheet" />
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<!--Main-->
@@ -15,21 +16,7 @@
 				<input class="submit__button" type="button" value="Submit" onclick="checkPswd();" />
 			</form>
 		</div>
-
-		<script type="text/javascript">
-		    function checkPswd() {
-		        var confirmPassword = "tupperware";
-		        var password = document.getElementById("pswd").value;
-		        if (password == confirmPassword) {
-		             window.location="search.html";
-		        }
-		        else{
-		            alert("Passwords do not match.");
-		        }
-		    }
-		</script>
 		<!--End Main-->
-	
 		<!--Footer-->
 		<div class="footer__container">
 			<a href="https://marsthelimit.github.io/marsthelimit/" target="_blank">&copy;Copyright 2022 MtL</a>

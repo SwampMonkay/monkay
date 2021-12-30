@@ -4,6 +4,7 @@
 		<title>Search Results | MSE</title>
 		<link href="style.css" rel="stylesheet" />
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<!--Search-->
@@ -13,25 +14,10 @@
 					<option value="Search Here">Search Here</option>
 					<option value="StuffAmon">StuffAmon</option>
 					<option value="Government Stuff">Government Stuff</option>
+					<option value="Clubs">Clubs</option>
 				</select>
 				<input class="submit__button" type="button" value="Search" onclick="checkValue();" />
 			</form>
-			
-			<script type="text/javascript">
-				function checkValue() {
-					var searches = ['StuffAmon', 'Government Stuff', 'Search Here']
-					var search = document.getElementById("search").value;
-					if (search == searches[0]) {
-						window.location="stuffamon_results.html"
-					}
-					else if (search == searches[1]) {
-						window.location="government_results.html";
-					}
-					else if (search == searches[2]) {
-						window.location="search.html"
-					}
-				}
-			</script>
 			<!--End Search-->
 			<!--Results-->
 			<div class="search__results">
