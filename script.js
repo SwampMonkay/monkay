@@ -20,8 +20,9 @@ function contact() {
 	var name = document.getElementById("name").value;
 	var description = document.getElementById("description").value;
 	var caption = document.getElementById("caption").value;
+	var web_link = document.getElementById("web_link").value;
 	var money = document.getElementById("money").value;
-	var message = "Hello! My name is " + name + ". I would like to request an ad for " + description + ". My caption is "+caption+" Thank you!!   "+"I am willing to pay $"+money+"."
+	var message = "Hello! My name is " + name + ". I would like to request an ad for " + description + ". My caption is "+caption+" Thank you!!   "+"I am willing to pay $"+money+". Link it to"+web_link+"."
 
 	window.open('mailto:bbensema890@gmail.com?subject=Can you put my ad in?&body='+message);
 }
