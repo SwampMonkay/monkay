@@ -1,17 +1,58 @@
 function checkValue() {
-	var searches = ['StuffAmon', 'Government Stuff', 'Search Here', 'Clubs']
+	var searches = ['stuffamon', 'government stuff', '', 'clubs'];
 	var search = document.getElementById("search").value;
+	console.log(search);
+
 	if (search == searches[0]) {
-		window.location="stuffamon_results.html"
+		window.location="stuffamon_results.html";
 	}
 	else if (search == searches[1]) {
 		window.location="government_results.html";
 	}
 	else if (search == searches[2]) {
-		window.location="search.html"
+		window.location="search.html";
 	}
 	else if (search == searches[3]) {
-		window.location="club_results.html"
+		window.location="club_results.html";
+	}
+	
+	
+}
+
+function checkSearchBar() {
+	var other_searches = ['stuffamon cards', 'government', 'president', 'homepage', 'mars the limit', 'rockets', 'stuffamon', 'government stuff', 'home', 'clubs'];
+	var search_bar = document.getElementById("search_bar").value;
+	console.log(search_bar);
+	
+	if (search_bar == other_searches[6]) {
+		window.location="stuffamon_results.html";
+	}
+	else if (search_bar == other_searches[7]) {
+		window.location="government_results.html";
+	}
+	else if (search_bar == other_searches[8]) {
+		window.location="search.html";
+	}
+	else if (search_bar == other_searches[9]) {
+		window.location="club_results.html";
+	}
+	else if (search_bar == other_searches[0]) {
+		window.location="stuffamon_results.html";
+	}
+	else if (search_bar == other_searches[1]) {
+		window.location="government_results.html";
+	}
+	else if (search_bar == other_searches[2]) {
+		window.location="government_results.html";
+	}
+	else if (search_bar == other_searches[3]) {
+		window.location="search.html";
+	}
+	else if (search_bar == other_searches[4]) {
+		window.location="club_results.html";
+	}
+	else if (search_bar == other_searches[5]) {
+		window.location="club_results.html";
 	}
 }
 

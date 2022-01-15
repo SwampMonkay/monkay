@@ -9,36 +9,31 @@
 	<body>
 		<!--Search-->
 		<div class="search__container">
-			<form class="search__bar">
-				<select id="search" name="search">
-					<option value="Search Here">Search Here</option>
-					<option value="StuffAmon">StuffAmon</option>
-					<option value="Government Stuff">Government Stuff</option>
-					<option value="Clubs">Clubs</option>
+			<form style="float: right;">
+				<select id="search" name="search" class="search__bar">
+					<option value="">Search Here</option>
+					<option value="stuffamon">StuffAmon</option>
+					<option value="government stuff">Government Stuff</option>
+					<option value="clubs">Clubs</option>
 				</select>
 				<input class="submit__button" type="button" value="Search" onclick="checkValue();" />
 			</form>
+			<div class="searchbox">  
+			<form>   
+				<input type="text" placeholder=" Search..." name="search" id="search_bar">   
+				<input type="button" value="Search" onclick="checkSearchBar();" />
+			</form>  
+			</div>
 			<!--End Search-->
 			<!--Results-->
 			<div class="search__results">
 				<br />
-				<div class="ad__right">
-					<figure>
-					<a href="temporary/pres_elections/speeches.html" target="blank"><img src="img/eli_for_prez_ad.png"></img></a>
-					<figcaption style="color: black;">AD - Vote Eli 2022</figcaption>
-					</figure>
-				</div>
 				<div class="result">
-					<h6 class="web__url">No URL provided</h6>
-					<a href="temporary/pres_elections/speeches.html" target="_blank">President Election</a>
-					<p>This is the place where you should decide who you are voting for. Sign up to run for
-					president at <a stlye="font-size: 13px;" href="https://forms.gle/XHJbPJh7Bd5cnAPs5" target="_blank">This link</a>.</p>
-				</div>
-				<div class="result">
-					<h6 class="web__url">https://forms.gle/XHJbPJh7Bd5cnAPs5</h6>
-					<a href="https://forms.gle/XHJbPJh7Bd5cnAPs5" target="_blank">Sign Up To Run For President</a>
-					<p>This is the place to sign up to run for president. Your speech and name will be posted on 
-					<a stlye="font-size: 13px;" href="temporary/pres_elections/speeches.html" target="_blank">This link</a>.</p>
+					<h6 class="web__url">https://swampmonkay.github.io/monkay/laws/law.html</h6>
+					<a href="laws/law.html" target="_blank">Laws</a>
+					<p>
+						This is where you can go to check all of the laws, and see if someone has wronged you.
+					</p>
 				</div>
 				<a href="website_request.html" target="blank"><div class="result">
 					<figure>
