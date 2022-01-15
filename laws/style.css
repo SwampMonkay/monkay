@@ -1,0 +1,38 @@
+* {
+	background: #000080;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+
+.federal__seal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	background-image: url("fed_seal.png");
+	height: 400px;
+	width: 300px;
+	margin: auto;
+}
+
+.article__container {
+	padding: 10px;
+	background-color: #c7c7c7;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0px 300px 20px 300px;
+	border-radius: 10px;
+}
+
+.article {
+	padding: 20px;
+	background-color: #c7c7c7;
+}
+
+.article h1, p, a, h2, h3, br{
+	background-color: #c7c7c7;
+}
