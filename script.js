@@ -1,5 +1,5 @@
 function checkValue() {
-	var searches = ['stuffamon', 'government stuff', '', 'clubs'];
+	var searches = ['stuffamon', 'government stuff', 'home', 'clubs', 'business'];
 	var search = document.getElementById("search").value;
 	console.log(search);
 
@@ -15,12 +15,19 @@ function checkValue() {
 	else if (search == searches[3]) {
 		window.location="club_results.html";
 	}
+	else if (search == searches[4]) {
+		window.location="business_results.html";
+	}
 	
 	
 }
 
 function checkSearchBar() {
-	var other_searches = ['stuffamon cards', 'government', 'president', 'homepage', 'mars the limit', 'rockets', 'stuffamon', 'government stuff', 'home', 'clubs'];
+	var other_searches = [
+		'stuffamon cards', 'government', 'president', 'homepage',
+		'mars the limit', 'rockets', 'stuffamon', 'government stuff',
+		'home', 'clubs', 'business', 'monebay'
+	];
 	var search_bar = document.getElementById("search_bar").value;
 	console.log(search_bar);
 	
@@ -53,6 +60,12 @@ function checkSearchBar() {
 	}
 	else if (search_bar == other_searches[5]) {
 		window.location="club_results.html";
+	}
+	else if (search_bar == other_searches[10]) {
+		window.location="business_results.html";
+	}
+	else if (search_bar == other_searches[11]) {
+		window.location="business_results.html";
 	}
 }
 
