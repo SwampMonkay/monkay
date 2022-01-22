@@ -1,3 +1,5 @@
+let incorrect = 0;
+
 function checkValue() {
 	var searches = ['stuffamon', 'government stuff', 'home', 'clubs', 'business'];
 	var search = document.getElementById("search").value;
@@ -93,19 +95,18 @@ function request() {
 }
 
 function checkPswd() {
-	var incorrect = 0;
 	var pswd = document.getElementById("pswd").value;
 	const password = "tupperware";
 	if (pswd == password) {
+		logged_in = true;
+		console.log(logged_in);
 		window.location = "search.html";
 	}
 	else {
 		incorrect += 1;
+		console.log(incorrect);
 		if (incorrect > 10) {
-			alert("You have guessed the password "+incorrect+" time. Give up.")
-		}
-		else {
-			alert("The password is incorrect.");
+			window.close();
 		}
 	}
 }
