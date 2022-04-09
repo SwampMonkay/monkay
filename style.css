@@ -78,6 +78,16 @@ input[type=text] {
 	background: white;
 }
 
+.search__content {
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+.ad__search {
+	float: right;
+}
+
+
 .search__bar {
 	size: 10%;
 }
